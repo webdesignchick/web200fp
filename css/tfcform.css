@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+
+
+h6 {
+	text-align:left;
+	font-size: 1.5em;
+}
+.pat411  {
+	padding: 0 5% 5% 5%;
+	text-align: justify;
+	border: none
+}
+label {
+	font-variant:small-caps;
+	font-size: 1.2em;
+	margin-bottom: 2%; 
+}
+section {
+	margin-top: 20px;
+}
+
+input[type="checkbox"] {
+	margin-right: 30px;
+	}
+
+input[type="radio"] {
+	margin-left: 1%;
+	}
+
+@media style print {
+	header footer{
+		display: none;
+}
+
+	body {
+		width: 600px;
+		font: Arial 12px #000000;
+		
+	}

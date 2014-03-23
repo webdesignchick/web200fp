@@ -1,0 +1,328 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Della+Respira);
+@import url(http://fonts.googleapis.com/css?family=Allura);
+
+/*color swatches 
+green #A0A603
+taupe #D9CA82
+brown #734F0D
+orange #FC9000
+beige #F2D4C2
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #D9CA82}
+	
+body {
+	margin: 0 auto; 
+	background: #fff; 
+	font: 16px Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	line-height:24px;
+
+}
+
+header {
+	background-color: #fff;
+	color: #666666;
+	margin-bottom: 2%;
+	overflow:hidden;
+
+}
+
+h4,h5,h6 {
+	font-family: 'Della Respira', serif;
+	color: #A0A603;
+}
+h1 {
+	padding: 20px 10px 10px 10px;
+	font-family: 'Allura', serif; 
+	color: #F5C9C3;
+}
+h2 {
+	padding: .5%;
+	font-family: 'Della Respira', serif;
+	visibility: hidden;
+}
+h3 {
+	font-family: 'Della Respira', serif;
+	color: #A0A603;
+	padding: 1.5% 0 1% 0;
+
+}
+h3 first
+
+
+.utility {
+	padding-top: 2%;
+	font-size: 70%;
+	float: right;
+	width: 29%;
+	line-height: 18px;
+	overflow:hidden;
+
+}
+.utility img {
+	width: 30px;
+
+}
+.utility p {
+	float:right;
+	text-align: left;
+	color: #734F0D;
+}
+
+#effect-text {
+	clear:both;
+}
+
+header img {
+	display: block;
+	width: 100%;
+	float:left;
+	padding: .5%;
+	margin: .5%;
+
+}
+
+section .logoone {
+	margin-top: 5%;
+	float:left;
+	width: 69%;
+}
+
+p {
+	margin-bottom: 1em;
+	text-indent: 3em;
+}
+
+article {
+	text-align: justify;
+	margin: 0px 2.5% 0px 2.5%;
+	border-bottom: dotted 4px #734F0D;
+	display:inline-block;
+}
+
+aside {
+	width: 90%;
+	padding: 0 2.5% 0 2.5%;
+	display:inline-block;
+	text-align: left;
+}
+
+aside th {
+	font: 'Della Respira', serif;  
+	font-size: 1.5em;
+	color: #734F0D;
+	text-align:left;
+	padding: 3%; 
+	width: 40px;
+}
+aside td {
+	padding: 10%;
+	margin: 1%;
+
+}
+.starboard img {
+	display: block;
+	width: 100%;
+	padding: .5%;
+	margin:.5%;
+
+}
+iframe {
+	width: 100%;	
+	height: 500px;
+}
+footer {
+	clear: both;
+	width: 100%;
+	background: #FC9000;
+	letter-spacing: .2em;
+	text-align: center;
+	color: #734F0D;
+	padding: 2% 0 2% 0;
+	font-size: .5em;
+}
+
+
+@media all and (min-width:801px) {
+	body {
+		width: 85%;
+		max-width: 1280px;
+		min-width: 780px;
+	}
+	
+	.utility {
+	padding-top: 2%;
+	font-size: 80%;
+	float: right;
+	width: 29%;
+	line-height: 18px;
+	overflow:hidden;
+
+}
+	.utility img {
+	width: 30px;
+
+}
+	.utility p {
+	float:right;
+	text-align: left;
+	color: #734F0D;
+}
+	h1{
+		font-size: 450%;
+}
+	h2 {
+		font-size: 400%;
+}
+	h3 {
+		font-size: 200%;
+}
+	a {
+		text-decoration: none;
+		color: inherit;
+		cursor: pointer;
+}
+	.tel {
+	
+	}
+
+
+	 .starboard{
+		max-width:47%;
+		float: left;
+		padding: 1%;
+		text-align: left;
+}
+
+	
+	 .port {
+		max-width:47%;
+		float: right;
+		text-align: left;
+		padding: 1%;
+
+	}
+}
+@media all and (max-width:800px) {
+	body {
+		width: 90%;
+		margin-left-right: 3%;
+		max-width: 790px;
+		min-width: 601px;
+}
+	.logoone{
+		width: 90%;	
+		margin: 3%;
+	}
+	.utility{
+		width: 85%;
+		margin: 6%;
+	}
+
+	h1{
+		font-size: 400%;
+}
+	h3 {
+		font-size: 150%;
+}
+	article {
+		clear: both;
+		width: 95%;
+		padding: 1%;
+		margin: 1%;
+	}
+	aside {
+		clear: both;
+		width: 95%;
+		padding: 1%;
+		margin: 1%;
+	}
+		 .starboard{
+		max-width:40%;
+		float: left;
+		padding: 1%;
+		text-align: left;
+}
+
+	
+	 .port {
+		max-width:40%;
+		float: right;
+		text-align: left;
+		padding: 1%;
+
+	}
+}
+
+@media all and (max-width:600px) {
+	body {
+		clear:both;
+		width: 90%;
+		margin-left-right: 3%;
+		min-width: 250px;
+		background: #FFFFFF;
+		overflow: auto;
+	}
+	
+header img {
+	display: block;
+	width: 100%;
+	float:left;
+	padding: .5%;
+	margin-top: 5%;
+
+}
+
+	h1{
+	font-size: 200%;
+}
+	h3 {
+	font-size: 100%;
+}
+	article {
+		clear: both;
+		width: 95%;
+		padding: 2%;
+		margin: 2%;
+	}
+	.starboard{
+		clear:both;
+		max-width:90%;
+		padding: 1%;
+}
+
+	
+	.port {
+		clear:both;
+		max-width:90%;
+		text-align: left;
+		padding: 1%;
+
+	}
+	
+	aside {
+		clear: both;
+		width: 95%;
+		padding: 2%;
+		margin: 2%;
+	}	
+	aside th {
+	font-size: 1em;
+}
+
+	aside td {
+	padding: 1%;
+	margin: 1%;
+	}
+	iframe {
+		width: 90%;
+		align-content:center;
+}
+}
