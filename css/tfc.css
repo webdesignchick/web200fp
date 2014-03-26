@@ -16,7 +16,7 @@ beige #F2D4C2
 }
 
 html {
-	background-color: #D9CA82}
+	background-color:  #E6DBA8;}
 	
 body {
 	margin: 0 auto; 
@@ -42,6 +42,7 @@ h1 {
 	padding: 20px 10px 10px 10px;
 	font-family: 'Allura', serif; 
 	color: #F5C9C3;
+	position:fixed;
 }
 h2 {
 	padding: .5%;
@@ -54,7 +55,6 @@ h3 {
 	padding: 1.5% 0 1% 0;
 
 }
-h3 first
 
 
 .utility {
@@ -97,8 +97,15 @@ section .logoone {
 
 p {
 	margin-bottom: 1em;
-	text-indent: 3em;
+	text-indent: 2em;
+	text-align:justify;
 }
+.port p::first-line {
+	color: #A0A603;
+	
+
+}
+
 
 article {
 	text-align: justify;
@@ -107,6 +114,10 @@ article {
 	display:inline-block;
 }
 
+section < iframe{
+	max-width:300px;
+
+}
 aside {
 	width: 90%;
 	padding: 0 2.5% 0 2.5%;
@@ -127,6 +138,14 @@ aside td {
 	margin: 1%;
 
 }
+.pat411 ul li  {
+	color: #734F0D;
+	list-style-type:none;
+	text-indent: 2em;
+	
+}
+.pat411 ul {padding-bottom:1%;
+}
 .starboard img {
 	display: block;
 	width: 100%;
@@ -144,9 +163,9 @@ footer {
 	background: #FC9000;
 	letter-spacing: .2em;
 	text-align: center;
-	color: #734F0D;
+	color: #fff;
 	padding: 2% 0 2% 0;
-	font-size: .5em;
+	font-size: .75em;
 }
 
 
@@ -159,7 +178,7 @@ footer {
 	
 	.utility {
 	padding-top: 2%;
-	font-size: 80%;
+	font-size: .80em;
 	float: right;
 	width: 29%;
 	line-height: 18px;
@@ -189,9 +208,6 @@ footer {
 		color: inherit;
 		cursor: pointer;
 }
-	.tel {
-	
-	}
 
 
 	 .starboard{
@@ -265,10 +281,15 @@ footer {
 	body {
 		clear:both;
 		width: 90%;
-		margin-left-right: 3%;
+		margin: auto;
 		min-width: 250px;
 		background: #FFFFFF;
 		overflow: auto;
+	}
+	
+	.utility {
+		
+		font-size: .8em;
 	}
 	
 header img {
@@ -290,7 +311,7 @@ header img {
 		clear: both;
 		width: 95%;
 		padding: 2%;
-		margin: 2%;
+		margin: auto;
 	}
 	.starboard{
 		clear:both;
@@ -301,8 +322,7 @@ header img {
 	
 	.port {
 		clear:both;
-		max-width:90%;
-		text-align: left;
+		max-width:95%;
 		padding: 1%;
 
 	}

@@ -23,8 +23,9 @@
 <footer>
 			 © 2013-2014 All Rights Reserved <a href="http://edison.seattlecentral.edu/~etacke01/web120/index.html">E.Tackett </a>|
 			<a href="http://validator.w3.org/check/referer" target="_blank"> Valid HTML</a> |
-			<a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank"> Valid CSS</a>
-		
+			<a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank"> Valid CSS</a> |
+			 <a href="../disclaimer.php"> Disclaimer </a> |
+            <a href="#top">Top Of Page</a>
 </footer>
 <!--js-->
 <script src="include/jquery.js"></script>
@@ -42,6 +43,15 @@
       });
     });
 </script> 
+
+<script src="../main.js"></script>
+<script src="include/doubletaptogo.js"></script>
+<script>
+	$( function()
+	{
+		$( '#nav li:has(ul)' ).doubleTapToGo();
+	});
+</script>
 
 </body>
 </html>
