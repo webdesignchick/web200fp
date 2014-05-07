@@ -6,6 +6,7 @@
 	<title> E.Tackett Disclaimer</title>
 	<meta name="robots" content="noindex,nofollow" />
 	<link rel="stylesheet" type="text/css" href="css/tfc.css"/>
+    <link rel="stylesheet" type="text/css" href="css/nav.css"/>
 	
 		<script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"> </script>
    
@@ -16,23 +17,21 @@
 
 	<body>
 	<a name="top">
-    <header><h1>E.Tackett Disclaimer </h1>
-    
-    
-		<p>Contact the developer at <a href="mailto:strawberryelle85@gmail.com">strawberryelle85@gmail.com</a>
-		</p>
 
+    <h1>E.Tackett Disclaimer </h1>
     
-    </header>
+    
+		<p>Contact the developer at <a href="mailto:strawberryelle85@gmail.com">strawberryelle85@gmail.com</a></p>
 
-		<nav class="clearfix">
-			<ul class="main">
+
+		<nav>
+			<ul>
 				<li><a href="index.php">Home</a></li>
 				<li class="current"><a href="disclaimer.html">Disclaimer</a></li>
 				</ul>
 		</nav>
 	
-<article>
+<article class="disclaim">
 
 	<h3>Credit </h3>
 
@@ -94,10 +93,11 @@
 <footer>
 		
 			 © 2013-2014 All Rights Reserved <a href="http://edison.seattlecentral.edu/~etacke01/web120/index.html">E.Tackett </a>|
-			<a href="index.php"> Home</a>
+			
 			<a href="http://validator.w3.org/check/referer" target="_blank"> Valid HTML</a> |
 			<a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank"> Valid CSS</a> |
             <a href="../disclaimer.php"> Disclaimer </a> |
+            <a href="index.php"> Home</a> |
             <a href="#top">Top Of Page</a>
 
 </footer>

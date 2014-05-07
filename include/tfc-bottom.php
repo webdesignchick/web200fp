@@ -44,7 +44,6 @@
     });
 </script> 
 
-<script src="../main.js"></script>
 <script src="include/doubletaptogo.js"></script>
 <script>
 	$( function()

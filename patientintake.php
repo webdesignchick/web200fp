@@ -85,23 +85,23 @@
     
     <div class="form-group">
     <label> Family:</label><br>
-    Spouse/Partner
+    Spouse/Partner<br>
 	<input type="text" name="spousename" class="form-control" placeholder="Spouse Name">
   	</div>
     
     <div class="form-group">
-	Children(s) Name and Ages
+	Children(s) Name and Ages<br>
     <textarea rows="4" cols="30" name="childrennames" class="form-control" > </textarea>
     </div>
     
     <div class="form-group">
     <label> Emergency Contact:</label><br>
 	
-    Name <input type="text" name="ecname"  class="form-control" placeholder="Emergency Contact Name" required> 
+   <!-- Name --><input type="text" name="ecname"  class="form-control" placeholder="Name" required> 
 	</div>
     
     <div class="form-group">
-    Number <input type="text" name="ecnumber" class="form-control" placeholder="Emergency Contact Number" required> 
+   <!-- Number--> <input type="text" name="ecnumber" class="form-control" placeholder="555-543-1234" required> 
 	</div>
 
 </section>
@@ -111,14 +111,14 @@
     <label>Previous Care:</label> 
 
     <div class="form-group">
-    <textarea rows="4" cols="60"class="form-control" name="previous care"> </textarea><br>
+    <textarea rows="4" cols="30"class="form-control" name="previous care"> </textarea><br>
     <h6>Current Health Information:</h6>
      </div>    
     <label>Current Symptoms </label><br>
 	
     <div class="form-group">
-    <textarea rows="4" cols="60" name="currentsymptoms" class="form-control" > </textarea><br>
-    Date Symptoms Began <input type="text" name="symptomdate" class="form-control" placeholder="mm/dd/yyyy"> 
+    <textarea rows="4" cols="30" name="currentsymptoms" class="form-control" > </textarea><br>
+    Date Symptoms Began<br> <input type="text" name="symptomdate" class="form-control" placeholder="mm/dd/yyyy"> 
     </div>
     <div class="form-group">
     Have you visited other health care practitioners for THIS condition?
@@ -129,12 +129,12 @@
     
     <div class="form-group">
      <label> Additional	Notes</label><br>
-    <textarea rows="4" cols="60" name="additionalnotes" class="form-control" > </textarea><br>
+    <textarea rows="4" cols="30" name="additionalnotes" class="form-control" > </textarea><br>
 	</div>
 
 <div class="form-group">
 <label>Allergies  <small>Please list any allergies past or present.</small></label>
-     <br><textarea rows="4" cols="60" class="form-control" > </textarea>
+     <br><textarea rows="4" cols="30" class="form-control" > </textarea>
 </div>
 </section>
 <section>

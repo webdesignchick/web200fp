@@ -6,7 +6,7 @@
 green #A0A603
 taupe #D9CA82
 brown #734F0D
-orange #FC9000
+orange #E07C27
 beige #F2D4C2
 */
 
@@ -29,7 +29,7 @@ body {
 header {
 	background-color: #fff;
 	color: #666666;
-	margin-bottom: 2%;
+	margin-bottom: 6%;
 	overflow:hidden;
 
 }
@@ -39,10 +39,10 @@ h4,h5,h6 {
 	color: #A0A603;
 }
 h1 {
-	padding: 20px 10px 10px 10px;
-	font-family: 'Allura', serif; 
-	color: #F5C9C3;
-	position:fixed;
+	padding: 10%;
+	color: #A06300;
+	text-align:center;
+
 }
 h2 {
 	padding: .5%;
@@ -58,8 +58,9 @@ h3 {
 
 
 .utility {
-	padding-top: 2%;
-	font-size: 70%;
+	padding: .5%;
+	margin:.5%;
+		font-size: 70%;
 	float: right;
 	width: 29%;
 	line-height: 18px;
@@ -69,15 +70,16 @@ h3 {
 .utility img {
 	width: 30px;
 
-}
-.utility p {
-	float:right;
-	text-align: left;
-	color: #734F0D;
+
 }
 
-#effect-text {
-	clear:both;
+#effect-text{
+		float:right;
+	text-align: justify;
+	color: #734F0D;
+	position:absolute;
+	margin-right:10%;
+	
 }
 
 header img {
@@ -114,10 +116,14 @@ article {
 	display:inline-block;
 }
 
-section < iframe{
+article iframe{
+	margin:1%;
+	float: left;
 	max-width:300px;
+	height:200px;
 
 }
+
 aside {
 	width: 90%;
 	padding: 0 2.5% 0 2.5%;
@@ -157,42 +163,60 @@ iframe {
 	width: 100%;	
 	height: 500px;
 }
+
+.disclaim article{
+	margin: 1%
+	
+	
+}
+
+
 footer {
 	clear: both;
 	width: 100%;
-	background: #FC9000;
+	background: #E07C27;
 	letter-spacing: .2em;
 	text-align: center;
 	color: #fff;
 	padding: 2% 0 2% 0;
 	font-size: .75em;
-}
 
+}
+footer a {	text-decoration: none;
+} 
+footer a:visited { color: #fff;}
 
 @media all and (min-width:801px) {
+	
 	body {
 		width: 85%;
 		max-width: 1280px;
 		min-width: 780px;
 	}
-	
+	header{
+		padding-top:5%;
+	}
 	.utility {
-	padding-top: 2%;
 	font-size: .80em;
 	float: right;
 	width: 29%;
 	line-height: 18px;
 	overflow:hidden;
+	text-align:right;
 
 }
 	.utility img {
-	width: 30px;
+	width: 25px;
+	float:right;
 
 }
-	.utility p {
-	float:right;
+
+	.catchphrase  {
+	
 	text-align: left;
+	margin-left: 3%;
 	color: #734F0D;
+	text-size: .9em;
 }
 	h1{
 		font-size: 450%;
@@ -223,6 +247,7 @@ footer {
 		float: right;
 		text-align: left;
 		padding: 1%;
+		position:static;
 
 	}
 }
@@ -237,7 +262,7 @@ footer {
 		width: 90%;	
 		margin: 3%;
 	}
-	.utility{
+	.catchprase{
 		width: 85%;
 		margin: 6%;
 	}
@@ -288,16 +313,29 @@ footer {
 	}
 	
 	.utility {
-		
-		font-size: .8em;
+		text-align: right;
+		width: 90%;
+		font-size: .9em;
+	}
+	.utility img {
+		float: left;
 	}
 	
-header img {
+	.catchphrase
+	{
+		
+		font-size: .9em;
+		margin:5%;
+		padding:5%; 
+	}
+	
+.logoone img {
 	display: block;
 	width: 100%;
 	float:left;
-	padding: .5%;
-	margin-top: 5%;
+	padding: .25%;
+	margin-top: 1.5%;
+	
 
 }
 

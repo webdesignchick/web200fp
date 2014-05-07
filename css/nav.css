@@ -1,5 +1,5 @@
 nav
-		{
+		{	margin-top:2%;
 			width: 100%;
 	
 			
@@ -44,7 +44,7 @@ nav span:after
 			nav > ul
 			{
 				height: 3.75em; /* 60 */
-				background-color: #FC9000;
+				background-color: #E07C27;
 			}
 			nav > ul > li
 				{
@@ -117,25 +117,26 @@ nav span:after
 
 @media all and (max-width:800px) {
 			
-
-			#nav
-			{	background-color: #FC9000;
+nav
+			{	background-color: #E07C27;
 				height: auto;
 				position: relative;
 				top: auto;
 				left: auto;
 			}
-				#nav > a
+nav > a
 				{
 					width: 3.125em; /* 50 */
 					height: 3.125em; /* 50 */
 					text-align: left;
 					text-indent: -9999px;
-					background-color: #FC9000;
+					background-color: ##E07C27;
 					position: relative;
+					
+				
 				}
-					#nav > a:before,
-					#nav > a:after
+nav > a:before,
+nav > a:after
 					{
 						position: absolute;
 						border: 2px solid #fff;
@@ -144,7 +145,7 @@ nav span:after
 						right: 25%;
 						content: '';
 					}
-					#nav > a:after
+nav > a:after
 					{
 						top: 60%;
 					}
@@ -158,7 +159,7 @@ nav span:after
 
 			/* first level */
 
-			#nav > ul
+nav > ul
 			{
 			
 				height: auto;
@@ -166,27 +167,29 @@ nav span:after
 				position: absolute;
 				left: 0;
 				right: 0;
+				
 		
 			}
-				#nav:target > ul
+				nav:target > ul
 				{
 					display: block;
 				}
-				#nav > ul > li
+				nav > ul > li
 				{
 					padding-top:3%;
 					padding-bottom: 1%;
 					width: 100%;
 					float: none;
+				
 				}
-					#nav > ul > li > a
-					{
+				nav > ul > li > a
+					{ text-decoration: none;
 						height: auto;
 						text-align: left;
 						padding: 0 0.833em; /* 20 (24) */
 					}
-						#nav > ul > li:not( :last-child ) > a
-						{
+				nav > ul > li:not( :last-child ) > a
+					{
 							border-right: none;
 							border-bottom: 1px solid #cc470d;
 						}
@@ -194,15 +197,18 @@ nav span:after
 
 				/* second level */
 
-				#nav li ul
+				nav li ul
 				{
 					position: static;
 				
 				}
-					#nav li ul li
+				nav li ul li
 				{
 					height:auto;
 					position: static;
-					padding-top: 0;				}
+					padding-top: 0;				
 				
+}
+nav li ul li a
+{text-decoration:none;
 		}
